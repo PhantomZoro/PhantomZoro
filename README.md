@@ -2,7 +2,7 @@
 
 **Senior Software Engineer · 6+ years · Bangalore, India**
 
-I solo-architect enterprise platforms that move real money and real throughput — then I go build my own products from scratch. Six years in, that's the pattern: own the system end-to-end, ship it, watch it outlive me, repeat. Currently a Senior Software Engineer contracted to Airbus, and solo-founding [KodeRyu](#now-building--koderyu). IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
+I solo-architect enterprise platforms that move real money and real throughput — then I go build my own products from scratch. Six years in, that's the pattern: own the system end-to-end, ship it, watch it outlive me, repeat. Currently a Senior Software Engineer contracted to Airbus, and solo-founding [KodeRyu](https://koderyu.com). IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
 
 - Open to **Senior / Full-Stack Software Engineer** roles (Bangalore or remote)
 - TypeScript-first — React · Node · Next.js · Postgres — with Python where it fits
@@ -24,7 +24,7 @@ I solo-architect enterprise platforms that move real money and real throughput �
 
 ---
 
-## Now building — KodeRyu
+## Now building — [KodeRyu](https://koderyu.com)
 
 An AI voice interview-prep platform (voice, DSA, and system-design practice). Private beta, Q2 2026. Solo-built end to end — this is the scalability-engineering proof that I still ship hard systems now, not just years ago:
 
