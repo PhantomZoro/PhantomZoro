@@ -26,15 +26,15 @@ I solo-architect enterprise platforms that move real money and real throughput �
 
 ## Now building — [KodeRyu](https://koderyu.com)
 
-An AI voice interview-prep platform (voice, DSA, and system-design practice). Private beta, Q2 2026. Solo-built end to end — this is the scalability-engineering proof that I still ship hard systems now, not just years ago:
+An AI voice interview-prep platform (voice, DSA, and system-design practice). Feature-complete, production deployment in progress. Solo-built end to end — this is the scalability-engineering proof that I still ship hard systems now, not just years ago:
 
-- **Sandboxed code executor** — Docker + nsjail + a BullMQ worker pool running untrusted code with **sub-second cold starts across 4 languages**.
-- **7,000+ automated tests** — API, web, and Playwright E2E, shipped through an AI-native workflow of 14 specialist agents and 15 automation hooks.
-- **LLM-as-judge eval pipeline** — a 500-transcript corpus, weighted kappa across 13 rubric criteria, with oracle-rule calibration for both text and voice sessions.
+- **Sandboxed code executor** — Docker + nsjail + a BullMQ worker pool running untrusted code with **sub-second cold starts across 5 languages** (Python, JavaScript, Java, C++, Go).
+- **4,000+ automated tests** — API, web, and Playwright E2E, shipped through an AI-native workflow of 14 specialist agents and 15 automation hooks.
+- **LLM-as-judge eval pipeline** — weighted kappa **κ=0.92** against a human-labeled truth set across a 13-criterion rubric, validated by a 12-persona candidate simulator.
 - **Real-time voice engine** — Deepgram STT + Kokoro TTS + a streaming LLM driven by a phase-based finite state machine, with rupture detection and an adaptive multi-level hint ladder.
 - **Production infra** — Clerk auth, Razorpay tier-gated payments, an OWASP security audit, and PostHog + Sentry + GA4 telemetry.
 
-> KodeRyu's source is private during beta. A public landing page and case study will be linked here at launch.
+> KodeRyu's source is private during beta — the live app is at [koderyu.com](https://koderyu.com). A public case study lands here at launch.
 
 ---
 
@@ -62,4 +62,4 @@ Solo, end-to-end — from the first architecture sketch to the on-call rotation.
 
 - **LinkedIn** — [linkedin.com/in/phaneendra-bheesetti](https://linkedin.com/in/phaneendra-bheesetti)
 - **Email** — phaneendra.bheesetti36@gmail.com
-- **Portfolio** — _coming soon (link to be added once deployed)_
+- **Portfolio** — [phaneendra-portfolio.pages.dev](https://phaneendra-portfolio.pages.dev)
