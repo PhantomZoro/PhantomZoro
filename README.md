@@ -2,36 +2,47 @@
 
 **Senior Software Engineer · 6+ years · Bangalore, India**
 
-I architect enterprise platforms that thousands of people depend on daily — then I go build my own products from scratch. Six years in, that's the pattern: own the system end-to-end, ship it, repeat. Currently a Senior Software Engineer contracted to Airbus, and solo-founding [KodeRyu](#now-building--koderyu). IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
+I solo-architect enterprise platforms that move real money and real throughput — then I go build my own products from scratch. Six years in, that's the pattern: own the system end-to-end, ship it, watch it outlive me, repeat. Currently a Senior Software Engineer contracted to Airbus, and solo-founding [KodeRyu](#now-building--koderyu). IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
 
 - Open to **Senior / Full-Stack Software Engineer** roles (Bangalore or remote)
 - TypeScript-first — React · Node · Next.js · Postgres — with Python where it fits
 
 ---
 
+## Track record in numbers
+
+| System | Scale | Impact |
+| --- | --- | --- |
+| **ABAcS** — budgeting platform, *sole architect* | €500M+/yr governed · €1.5B+ cumulative · 1,500 users · 5 countries | **70% faster** allocation cycles · audit prep **days → hours** · work conventionally staffed by a 3–5 engineer team, delivered solo |
+| **ECM** — document publishing desktop app | 2,000+ classified docs published to date | **2–3 hrs → 10–15 min** per doc (≈90%) · **≈4,700 specialist hours eliminated** · one publisher does a manual team's work |
+| **MPO** — maintenance-program optimization (Skywise/Palantir Foundry) | 8,000+ operator accounts · a multi-million-euro annual cost-avoidance & service-revenue business case | Owned the digitally-signed PDF dossier — **the revenue-carrying deliverable** operators receive · incident focal, **15+ critical defects** resolved |
+| **Quality Tracker** — supply-chain quality | 500+ users · 5 countries · solo build in 2 months | Approval cycle **1–2 days → 2–3 hrs** (≈85–92%) · zero bug-induced downtime · handed to a team that extended it |
+| **CCT** — composite compatibility | Aircraft manufacturing · 2-engineer build | Composite-material testing cycle **cut 80%** |
+| **MyMetrics** — PnL/risk platform (Société Générale) | 60K-line codebase · global bank's Finance Risk division | SonarQube **D → A+ in 10 months**, single-handed · 5 new risk-dashboard APIs |
+
+*Airbus work is under Alten contracts in internal repositories — described here, not linked. Exact internal business-case figures stay private; the public numbers above are sanitized.*
+
+---
+
 ## Now building — KodeRyu
 
-An AI voice interview prep platform (voice, DSA, and system-design practice). Private beta, Q2 2026. Solo-built end to end — real engineering, not a demo:
+An AI voice interview-prep platform (voice, DSA, and system-design practice). Private beta, Q2 2026. Solo-built end to end — this is the scalability-engineering proof that I still ship hard systems now, not just years ago:
 
-- **Real-time voice interview engine** — Deepgram STT + Kokoro TTS + a streaming LLM driven by a phase-based finite state machine, with rupture detection and an adaptive multi-level hint ladder.
+- **Sandboxed code executor** — Docker + nsjail + a BullMQ worker pool running untrusted code with **sub-second cold starts across 4 languages**.
+- **7,000+ automated tests** — API, web, and Playwright E2E, shipped through an AI-native workflow of 14 specialist agents and 15 automation hooks.
 - **LLM-as-judge eval pipeline** — a 500-transcript corpus, weighted kappa across 13 rubric criteria, with oracle-rule calibration for both text and voice sessions.
-- **Sandboxed code executor** — Docker + nsjail + a BullMQ worker pool delivering sub-second cold starts across 4 languages.
-- **AI-native development** — 7,000+ tests (API, web, Playwright E2E) shipped through a workflow of 14 specialist agents and 15 automation hooks.
+- **Real-time voice engine** — Deepgram STT + Kokoro TTS + a streaming LLM driven by a phase-based finite state machine, with rupture detection and an adaptive multi-level hint ladder.
 - **Production infra** — Clerk auth, Razorpay tier-gated payments, an OWASP security audit, and PostHog + Sentry + GA4 telemetry.
 
 > KodeRyu's source is private during beta. A public landing page and case study will be linked here at launch.
 
 ---
 
-## Enterprise work at Airbus (private, described not linked)
+## How I work
 
-This work lives in Airbus internal repositories under Alten contracts, so it can be described but not linked or shown as code:
+Solo, end-to-end — from the first architecture sketch to the on-call rotation. The systems I own tend to share three traits: they move real money or throughput, they cut cycle times by an order of magnitude, and they outlive me — handed to teams, extended, still in production.
 
-- **ABAcS** — solo-architected a budgeting platform tracking €500M+ in annual budget for 1,500+ users across France, Germany, the UK, Spain and India. Cut the budget allocation cycle by 70% and turned days of audit prep into hours.
-- **ECM** — an Electron desktop app that replaced a fragile Excel-macro workflow; per-document publishing dropped from 2–3 hours to 10–15 minutes (2,000+ classified documents published to date).
-- Plus a supply-chain quality tracker (500+ users, 5 countries), maintenance-planning work on Skywise (8,000+ operator accounts), and a composites-compatibility web app.
-
-*Because most of my strongest work is enterprise and behind internal git, my public contribution graph doesn't tell the whole story — the projects above and the pinned repos below do.*
+*Because most of my strongest work is enterprise and behind internal git, my public contribution graph doesn't tell the whole story — the track record above and the pinned repos below do.*
 
 ---
 
