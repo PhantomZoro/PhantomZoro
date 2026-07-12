@@ -2,7 +2,7 @@
 
 **Senior Software Engineer · 6+ years · Bangalore, India**
 
-I solo-architect enterprise platforms that move real money and real throughput — then I go build my own products from scratch. Six years in, that's the pattern: own the system end-to-end, ship it, watch it outlive me, repeat. Currently a Senior Software Engineer contracted to Airbus, and solo-founding [KodeRyu](https://koderyu.com). IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
+Senior Software Engineer with 6+ years architecting full-stack systems end-to-end, from the data model to the on-call rotation. Currently contracted to Airbus, and solo-founding [KodeRyu](https://koderyu.com). IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
 
 - Open to **Senior / Full-Stack Software Engineer** roles (Bangalore or remote)
 - TypeScript-first — React · Node · Next.js · Postgres — with Python where it fits
@@ -26,13 +26,12 @@ I solo-architect enterprise platforms that move real money and real throughput �
 
 ## Now building — [KodeRyu](https://koderyu.com)
 
-An AI voice interview-prep platform (voice, DSA, and system-design practice). Feature-complete, production deployment in progress. Solo-built end to end — this is the scalability-engineering proof that I still ship hard systems now, not just years ago:
+An AI voice interviewer that conducts real spoken technical interviews — voice, DSA, and system-design practice — at [koderyu.com](https://koderyu.com). Feature-complete and heading to launch. Built solo, end to end:
 
-- **Sandboxed code executor** — Docker + nsjail + a BullMQ worker pool running untrusted code with **sub-second cold starts across 5 languages** (Python, JavaScript, Java, C++, Go).
-- **4,000+ automated tests** — API, web, and Playwright E2E, shipped through an AI-native workflow of 14 specialist agents and 15 automation hooks.
-- **LLM-as-judge eval pipeline** — weighted kappa **κ=0.92** against a human-labeled truth set across a 13-criterion rubric, validated by a 12-persona candidate simulator.
-- **Real-time voice engine** — Deepgram STT + Kokoro TTS + a streaming LLM driven by a phase-based finite state machine, with rupture detection and an adaptive multi-level hint ladder.
-- **Production infra** — Clerk auth, Razorpay tier-gated payments, an OWASP security audit, and PostHog + Sentry + GA4 telemetry.
+- **Real-time voice engine** — streaming Deepgram STT → LLM → self-hosted Kokoro TTS, orchestrated by a phase-based FSM with rupture detection and adaptive hinting.
+- **Sandboxed code execution** — runs untrusted candidate code in **5 languages** (Python, JavaScript, Java, C++, Go) inside a Docker + nsjail sandbox on a BullMQ worker pool, with **sub-second cold starts**.
+- **AI grading** — validated at **κ=0.92** against human expert labels on a 13-criterion rubric, cross-checked by a 12-persona candidate simulator.
+- **Full SaaS, shipped solo** — Clerk auth, Razorpay tier-gated payments, an OWASP Top 10 security pass, and PostHog + Sentry + GA4 telemetry.
 
 > KodeRyu's source is private during beta — the live app is at [koderyu.com](https://koderyu.com). A public case study lands here at launch.
 
@@ -40,9 +39,9 @@ An AI voice interview-prep platform (voice, DSA, and system-design practice). Fe
 
 ## How I work
 
-Solo, end-to-end — from the first architecture sketch to the on-call rotation. The systems I own tend to share three traits: they move real money or throughput, they cut cycle times by an order of magnitude, and they outlive me — handed to teams, extended, still in production.
+Solo, end-to-end — from the data model to the on-call rotation. The systems I own move real money or throughput, cut cycle times by an order of magnitude, and stay in production after I hand them off.
 
-*Because most of my strongest work is enterprise and behind internal git, my public contribution graph doesn't tell the whole story — the track record above and the pinned repos below do.*
+*Most of my strongest work is enterprise and lives behind internal git, so my public contribution graph doesn't tell the whole story — the track record above and the pinned repos below do.*
 
 ---
 
