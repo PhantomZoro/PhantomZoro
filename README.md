@@ -28,9 +28,9 @@ Senior Software Engineer with 6+ years architecting full-stack systems end-to-en
 
 An AI voice interviewer that conducts real spoken technical interviews — voice, DSA, and system-design practice — at [koderyu.com](https://koderyu.com). Feature-complete and heading to launch. Built solo, end to end:
 
-- **Real-time voice engine** — streaming Deepgram STT → LLM → self-hosted Kokoro TTS, orchestrated by a phase-based FSM with rupture detection and adaptive hinting.
+- **Real-time voice engine** — holds a natural spoken interview: streaming speech-to-text (Deepgram) into an LLM and back to speech (self-hosted Kokoro TTS) fast enough to feel like live conversation, recovering when candidates interrupt and hinting progressively when they're stuck.
 - **Sandboxed code execution** — runs untrusted candidate code in **5 languages** (Python, JavaScript, Java, C++, Go) inside a Docker + nsjail sandbox on a BullMQ worker pool, with **sub-second cold starts**.
-- **AI grading** — validated at **κ=0.92** against human expert labels on a 13-criterion rubric, cross-checked by a 12-persona candidate simulator.
+- **AI grading** — matches human expert graders (**κ=0.92** agreement on a 13-criterion rubric), regression-tested by simulating 12 distinct candidate types.
 - **Full SaaS, shipped solo** — Clerk auth, Razorpay tier-gated payments, an OWASP Top 10 security pass, and PostHog + Sentry + GA4 telemetry.
 
 > KodeRyu's source is private during beta — the live app is at [koderyu.com](https://koderyu.com). A public case study lands here at launch.
