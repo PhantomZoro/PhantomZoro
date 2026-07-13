@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="50" viewBox="0 0 830 50" role="img" aria-label="LEVEL 02 // ARSENAL">
+  <defs>
+    <style>text { font-family: ui-monospace, "Cascadia Mono", "Cascadia Code", "Courier New", monospace; }</style>
+    <filter id="g02" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <text x="4" y="30" font-size="19" font-weight="700" letter-spacing="1.5" fill="#2bff88" filter="url(#g02)">LEVEL 02</text>
+  <text x="112" y="30" font-size="19" font-weight="700" fill="#ff3ea5">//</text>
+  <text x="142" y="29" font-size="14.5" font-weight="600" letter-spacing="3.5" fill="#a7b2c3">ARSENAL</text>
+  <line x1="300" y1="24" x2="812" y2="24" stroke="#2bff88" stroke-opacity="0.28" stroke-width="1"/>
+  <rect x="816" y="18" width="9" height="13" fill="#2bff88" opacity="0.85"/>
+  <line x1="4" y1="43" x2="826" y2="43" stroke="#9fd6ea" stroke-opacity="0.12" stroke-width="1"/>
+</svg>

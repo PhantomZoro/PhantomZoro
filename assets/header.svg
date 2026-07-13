@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="208" viewBox="0 0 830 208" role="img" aria-label="Phaneendra Bheesetti — Senior Software Engineer, 6-plus years, Bangalore">
+  <defs>
+    <style>
+      text { font-family: ui-monospace, "Cascadia Mono", "Cascadia Code", "Courier New", monospace; }
+    </style>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0e14"/>
+      <stop offset="1" stop-color="#080a0f"/>
+    </linearGradient>
+    <radialGradient id="phos" cx="24%" cy="18%" r="70%">
+      <stop offset="0" stop-color="#2bff88" stop-opacity="0.16"/>
+      <stop offset="42%" stop-color="#2bff88" stop-opacity="0.05"/>
+      <stop offset="70%" stop-color="#2bff88" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="1" fill="#9fd6ea" opacity="0.05"/>
+    </pattern>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#2bff88" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- panel -->
+  <rect x="1.5" y="1.5" width="827" height="205" rx="9" fill="url(#panel)"/>
+  <rect x="1.5" y="1.5" width="827" height="205" rx="9" fill="url(#grid)"/>
+  <rect x="1.5" y="1.5" width="827" height="205" rx="9" fill="url(#phos)"/>
+  <rect x="1.5" y="1.5" width="827" height="205" rx="9" fill="url(#scan)"/>
+  <rect x="1.5" y="1.5" width="827" height="205" rx="9" fill="none" stroke="#2bff88" stroke-opacity="0.45" stroke-width="1.5"/>
+  <rect x="4.5" y="4.5" width="821" height="199" rx="6.5" fill="none" stroke="#9fd6ea" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- terminal title bar -->
+  <g transform="translate(28,30)">
+    <circle cx="0" cy="0" r="5" fill="#2bff88"/>
+    <circle cx="18" cy="0" r="5" fill="#ff3ea5"/>
+    <circle cx="36" cy="0" r="5" fill="#3a4658"/>
+    <text x="60" y="4" font-size="13" letter-spacing="1.5" fill="#808c9f">phaneendra@github : ~ / profile</text>
+  </g>
+  <text x="802" y="34" text-anchor="end" font-size="11" letter-spacing="2" fill="#808c9f">v2026</text>
+  <line x1="20" y1="48" x2="810" y2="48" stroke="#9fd6ea" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- name -->
+  <text x="30" y="108" font-size="44" font-weight="700" letter-spacing="2.5" fill="#8dffc0" filter="url(#glow)">PHANEENDRA BHEESETTI</text>
+
+  <!-- subtitle -->
+  <text x="32" y="146" font-size="15.5" font-weight="600" letter-spacing="3.2" fill="#a7b2c3">SENIOR SOFTWARE ENGINEER
+    <tspan fill="#2bff88"> · </tspan>6+ YRS<tspan fill="#2bff88"> · </tspan>BANGALORE</text>
+
+  <!-- prompt line -->
+  <g transform="translate(30,182)" filter="url(#softglow)">
+    <text x="0" y="0" font-size="15" font-weight="700" fill="#2bff88">&gt;</text>
+    <text x="20" y="0" font-size="14" letter-spacing="1.5" fill="#a7b2c3">open to senior / full-stack roles</text>
+    <rect x="360" y="-12" width="10" height="15" fill="#2bff88">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.06s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

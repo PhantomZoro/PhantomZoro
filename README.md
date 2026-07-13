@@ -1,15 +1,22 @@
-# Phaneendra Bheesetti
+<!-- ============================================================
+     Phaneendra Bheesetti — GitHub profile
+     Dark retro-gaming / CRT terminal theme. Design lives in the
+     committed SVGs under assets/; the Markdown below carries every
+     fact so the page still reads perfectly if images fail to load.
+     ============================================================ -->
 
-**Senior Software Engineer · 6+ years · Bangalore, India**
+<img src="assets/header.svg" alt="Phaneendra Bheesetti — Senior Software Engineer · 6+ years · Bangalore, India. Open to senior / full-stack roles." width="830">
 
 Senior Software Engineer with 6+ years architecting full-stack systems end-to-end, from the data model to the on-call rotation. Currently contracted to Airbus, and solo-founding [KodeRyu](https://koderyu.com). IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
 
 - Open to **Senior / Full-Stack Software Engineer** roles (Bangalore or remote)
 - TypeScript-first — React · Node · Next.js · Postgres — with Python where it fits
 
----
+<img src="assets/scoreboard.svg" alt="High scores: €1.5B+ cumulative budget governed (ABAcS) · 1,500 users across 5 countries (ABAcS) · 70% faster allocation cycles (ABAcS) · ≈4,700 specialist hours eliminated (ECM)." width="830">
 
-## Track record in numbers
+<br>
+
+<img src="assets/level-01.svg" alt="Level 01 // Track Record" width="830">
 
 | System | Scale | Impact |
 | --- | --- | --- |
@@ -22,9 +29,9 @@ Senior Software Engineer with 6+ years architecting full-stack systems end-to-en
 
 *Airbus work is under Alten contracts in internal repositories — described here, not linked. Exact internal business-case figures stay private; the public numbers above are sanitized.*
 
----
+<br>
 
-## Now building — [KodeRyu](https://koderyu.com)
+<img src="assets/koderyu.svg" alt="Now building — KodeRyu: AI voice interviewer, launching soon. koderyu.com" width="830">
 
 An AI voice interviewer that conducts real spoken technical interviews — voice, DSA, and system-design practice — at [koderyu.com](https://koderyu.com). Feature-complete and heading to launch. Built solo, end to end:
 
@@ -35,17 +42,13 @@ An AI voice interviewer that conducts real spoken technical interviews — voice
 
 > KodeRyu's source is private during beta — the live app is at [koderyu.com](https://koderyu.com). A public case study lands here at launch.
 
----
-
-## How I work
-
-Solo, end-to-end — from the data model to the on-call rotation. The systems I own move real money or throughput, cut cycle times by an order of magnitude, and stay in production after I hand them off.
+**How I work** — Solo, end-to-end, from the data model to the on-call rotation. The systems I own move real money or throughput, cut cycle times by an order of magnitude, and stay in production after I hand them off.
 
 *Most of my strongest work is enterprise and lives behind internal git, so my public contribution graph doesn't tell the whole story — the track record above and the pinned repos below do.*
 
----
+<br>
 
-## Tech
+<img src="assets/level-02.svg" alt="Level 02 // Arsenal" width="830">
 
 **Languages & data** — TypeScript · JavaScript · Python · Java · SQL · PostgreSQL · MongoDB · Redis · Kafka
 
@@ -55,10 +58,15 @@ Solo, end-to-end — from the data model to the on-call rotation. The systems I 
 
 **Testing & telemetry** — Vitest · Playwright · Jest · PostHog · Sentry · GA4 · SonarQube
 
----
+<br>
 
-## Contact
+<img src="assets/level-03.svg" alt="Level 03 // Contact" width="830">
 
-- **LinkedIn** — [linkedin.com/in/phaneendra-bheesetti](https://linkedin.com/in/phaneendra-bheesetti)
+- **LinkedIn** — [linkedin.com/in/phaneendra-bheesetti](https://www.linkedin.com/in/phaneendra-bheesetti-b410a5b3)
 - **Email** — phaneendra.bheesetti36@gmail.com
 - **Portfolio** — [phaneendra-portfolio.pages.dev](https://phaneendra-portfolio.pages.dev)
+- **KodeRyu** — [koderyu.com](https://koderyu.com)
+
+<br>
+
+<sub>© 2026 · ● SYSTEM ONLINE</sub>
