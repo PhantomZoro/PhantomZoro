@@ -62,7 +62,7 @@ An AI voice interviewer that conducts real spoken technical interviews — voice
 
 <img src="assets/level-03.svg" alt="Level 03 // Contact" width="830">
 
-- **LinkedIn** — [linkedin.com/in/phaneendra-bheesetti](https://www.linkedin.com/in/phaneendra-bheesetti-b410a5b3)
+- **LinkedIn** — [linkedin.com/in/phaneendra-bheesetti-b410a5b3](https://www.linkedin.com/in/phaneendra-bheesetti-b410a5b3)
 - **Email** — phaneendra.bheesetti36@gmail.com
 - **Portfolio** — [phaneendra-portfolio.pages.dev](https://phaneendra-portfolio.pages.dev)
 - **KodeRyu** — [koderyu.com](https://koderyu.com)
