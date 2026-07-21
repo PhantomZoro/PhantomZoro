@@ -7,7 +7,7 @@
 
 <img src="assets/header.svg" alt="Phaneendra Bheesetti — Senior Full-Stack & AI Engineer · 6+ years · Bangalore, India. Open to senior full-stack & AI engineering roles." width="830">
 
-Senior Full-Stack & AI Engineer with 6+ years architecting systems end-to-end — and now building the AI layer on top of them. At BMW (via Alten) I drive full-stack delivery and the team's **AI initiatives**: agent-based development workflows, **MCP servers** connecting internal systems to AI tooling, and GitHub Copilot practice — on a large Nx monorepo of engineering-data visualization tools (Angular, Express, AWS DynamoDB + S3, Terraform). Also solo-founding [KodeRyu](https://koderyu.com), a live AI voice interviewer. IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
+Senior Full-Stack & AI Engineer with 6+ years architecting systems end-to-end — and shipping LLM systems that hold up in production: a real-time **voice agent**, **LLM-as-judge eval pipelines** validated against human graders, **sandboxed execution** of untrusted code, and agentic developer workflows. At BMW (via Alten) I own the team's **AI initiatives** — coding agents, **MCP servers** connecting internal systems to AI tooling, GitHub Copilot practices — on a large Nx monorepo of engineering-data visualization tools (Angular, Express, AWS DynamoDB + S3, Terraform). Also solo-founding [KodeRyu](https://koderyu.com), a live AI voice interviewer. IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
 
 - Open to **Senior Full-Stack & AI Engineering** roles (Bangalore or remote)
 - TypeScript-first — Angular · React · Node · Postgres — with an AI layer of Claude API, MCP, agents, and LLM eval pipelines
@@ -35,9 +35,9 @@ Senior Full-Stack & AI Engineer with 6+ years architecting systems end-to-end �
 
 An AI voice interviewer that conducts real spoken technical interviews — voice, DSA, and system-design practice — **live at [koderyu.com](https://koderyu.com)** and heading to public launch. Built solo, end to end:
 
-- **Real-time voice engine** — holds a natural spoken interview: streaming speech-to-text (Deepgram) into an LLM and back to speech (self-hosted Kokoro TTS) fast enough to feel like live conversation, recovering when candidates interrupt and hinting progressively when they're stuck.
+- **Real-time voice agent** — holds a natural spoken interview: streaming speech-to-text (Deepgram) into an LLM and back through self-hosted TTS (Kokoro — chosen for latency and unit cost) fast enough to feel like live conversation, recovering when candidates interrupt and hinting progressively when they're stuck.
 - **Sandboxed code execution** — runs untrusted candidate code in **5 languages** (Python, JavaScript, Java, C++, Go) inside a Docker + nsjail sandbox on a BullMQ worker pool, with **sub-second cold starts**.
-- **AI grading** — matches human expert graders (**κ=0.92** agreement on a 13-criterion rubric), regression-tested by simulating 12 distinct candidate types.
+- **LLM-as-judge grading** — matches human expert graders (**κ=0.92** agreement on a 13-criterion rubric), regression-tested by simulating 12 distinct candidate types.
 - **Full SaaS, shipped solo** — Clerk auth, Razorpay tier-gated payments, an OWASP Top 10 security pass, and PostHog + Sentry + GA4 telemetry.
 
 > KodeRyu's source is private during beta — the live app is at [koderyu.com](https://koderyu.com). A public case study lands here at launch.
@@ -54,7 +54,7 @@ An AI voice interviewer that conducts real spoken technical interviews — voice
 
 **Frameworks & infra** — Angular · React · Next.js · Node · Express · FastAPI · Electron · Prisma · Redux Toolkit · Zustand · Tailwind · Nx · Docker · nsjail · BullMQ · AWS (DynamoDB · S3 · Lambda) · Terraform · Jenkins
 
-**AI engineering** — AI agents & agentic workflows · MCP server development · Claude API · Claude Code · GitHub Copilot · LLM evaluation harnesses · Deepgram STT · Kokoro TTS
+**AI engineering** — Production LLM systems: real-time voice agents (streaming STT → LLM → TTS) · AI agents & agentic workflows · MCP server development · LLM evals & regression harnesses (LLM-as-judge) · prompt & context engineering · guardrails & sandboxed code execution · Claude API · Claude Code · GitHub Copilot · Deepgram STT · Kokoro TTS
 
 **Testing & telemetry** — Vitest · Playwright · Jest · PostHog · Sentry · GA4 · SonarQube
 
