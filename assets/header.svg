@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="830" height="208" viewBox="0 0 830 208" role="img" aria-label="Phaneendra Bheesetti — Senior Software Engineer, 6-plus years, Bangalore">
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="208" viewBox="0 0 830 208" role="img" aria-label="Phaneendra Bheesetti — Senior Full-Stack and AI Engineer, 6-plus years, Bangalore">
   <defs>
     <style>
       text { font-family: ui-monospace, "Cascadia Mono", "Cascadia Code", "Courier New", monospace; }
@@ -50,7 +50,7 @@
   <text x="30" y="108" font-size="44" font-weight="700" letter-spacing="2.5" fill="#8dffc0" filter="url(#glow)">PHANEENDRA BHEESETTI</text>
 
   <!-- subtitle -->
-  <text x="32" y="146" font-size="15.5" font-weight="600" letter-spacing="3.2" fill="#a7b2c3">SENIOR SOFTWARE ENGINEER
+  <text x="32" y="146" font-size="15.5" font-weight="600" letter-spacing="3.2" fill="#a7b2c3">SENIOR FULL-STACK &amp; AI ENGINEER
     <tspan fill="#2bff88"> · </tspan>6+ YRS<tspan fill="#2bff88"> · </tspan>BANGALORE</text>
 
   <!-- prompt line -->

@@ -5,12 +5,12 @@
      fact so the page still reads perfectly if images fail to load.
      ============================================================ -->
 
-<img src="assets/header.svg" alt="Phaneendra Bheesetti — Senior Software Engineer · 6+ years · Bangalore, India. Open to senior / full-stack roles." width="830">
+<img src="assets/header.svg" alt="Phaneendra Bheesetti — Senior Full-Stack & AI Engineer · 6+ years · Bangalore, India. Open to senior full-stack & AI engineering roles." width="830">
 
-Senior Software Engineer with 6+ years architecting full-stack systems end-to-end, from the data model to the on-call rotation. Currently contracted to Airbus, and solo-founding [KodeRyu](https://koderyu.com). IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
+Senior Full-Stack & AI Engineer with 6+ years architecting systems end-to-end — and now building the AI layer on top of them. At BMW (via Alten) I drive full-stack delivery and the team's **AI initiatives**: agent-based development workflows, **MCP servers** connecting internal systems to AI tooling, and GitHub Copilot practice — on a large Nx monorepo of engineering-data visualization tools (Angular, Express, AWS DynamoDB + S3, Terraform). Also solo-founding [KodeRyu](https://koderyu.com), a live AI voice interviewer. IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
 
-- Open to **Senior / Full-Stack Software Engineer** roles (Bangalore or remote)
-- TypeScript-first — React · Node · Next.js · Postgres — with Python where it fits
+- Open to **Senior Full-Stack & AI Engineering** roles (Bangalore or remote)
+- TypeScript-first — Angular · React · Node · Postgres — with an AI layer of Claude API, MCP, agents, and LLM eval pipelines
 
 <img src="assets/scoreboard.svg" alt="High scores: €1.5B+ cumulative budget governed (ABAcS) · 1,500 users across 5 countries (ABAcS) · 70% faster allocation cycles (ABAcS) · ≈4,700 specialist hours eliminated (ECM)." width="830">
 
@@ -31,9 +31,9 @@ Senior Software Engineer with 6+ years architecting full-stack systems end-to-en
 
 <br>
 
-<img src="assets/koderyu.svg" alt="Now building — KodeRyu: AI voice interviewer, launching soon. koderyu.com" width="830">
+<img src="assets/koderyu.svg" alt="Now building — KodeRyu: AI voice interviewer, live now. koderyu.com" width="830">
 
-An AI voice interviewer that conducts real spoken technical interviews — voice, DSA, and system-design practice — at [koderyu.com](https://koderyu.com). Feature-complete and heading to launch. Built solo, end to end:
+An AI voice interviewer that conducts real spoken technical interviews — voice, DSA, and system-design practice — **live at [koderyu.com](https://koderyu.com)** and heading to public launch. Built solo, end to end:
 
 - **Real-time voice engine** — holds a natural spoken interview: streaming speech-to-text (Deepgram) into an LLM and back to speech (self-hosted Kokoro TTS) fast enough to feel like live conversation, recovering when candidates interrupt and hinting progressively when they're stuck.
 - **Sandboxed code execution** — runs untrusted candidate code in **5 languages** (Python, JavaScript, Java, C++, Go) inside a Docker + nsjail sandbox on a BullMQ worker pool, with **sub-second cold starts**.
@@ -52,9 +52,9 @@ An AI voice interviewer that conducts real spoken technical interviews — voice
 
 **Languages & data** — TypeScript · JavaScript · Python · Java · SQL · PostgreSQL · MongoDB · Redis · Kafka
 
-**Frameworks & infra** — React · Next.js · Node · Express · FastAPI · Electron · Angular · Prisma · Redux Toolkit · Zustand · Tailwind · Docker · nsjail · BullMQ · AWS · Jenkins
+**Frameworks & infra** — Angular · React · Next.js · Node · Express · FastAPI · Electron · Prisma · Redux Toolkit · Zustand · Tailwind · Nx · Docker · nsjail · BullMQ · AWS (DynamoDB · S3 · Lambda) · Terraform · Jenkins
 
-**AI / voice** — Claude API · Claude Code · MCP · Deepgram STT · Kokoro TTS
+**AI engineering** — AI agents & agentic workflows · MCP server development · Claude API · Claude Code · GitHub Copilot · LLM evaluation harnesses · Deepgram STT · Kokoro TTS
 
 **Testing & telemetry** — Vitest · Playwright · Jest · PostHog · Sentry · GA4 · SonarQube
 

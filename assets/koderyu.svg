@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="830" height="118" viewBox="0 0 830 118" role="img" aria-label="Now building — KodeRyu: AI voice interviewer, launching soon">
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="118" viewBox="0 0 830 118" role="img" aria-label="Now building — KodeRyu: AI voice interviewer, live now">
   <defs>
     <style>
       text { font-family: ui-monospace, "Cascadia Mono", "Cascadia Code", "Courier New", monospace; }
@@ -47,6 +47,6 @@
 
   <!-- subtitle -->
   <text x="252" y="78" font-size="14.5" font-weight="600" letter-spacing="2.5" fill="#e8ecf1">AI VOICE INTERVIEWER
-    <tspan fill="#ff74c0"> · </tspan><tspan fill="#a7b2c3">LAUNCHING SOON</tspan></text>
+    <tspan fill="#ff74c0"> · </tspan><tspan fill="#a7b2c3">LIVE NOW</tspan></text>
   <text x="252" y="98" font-size="12" letter-spacing="1" fill="#808c9f">koderyu.com</text>
 </svg>
