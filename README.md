@@ -7,7 +7,7 @@
 
 <img src="assets/header.svg" alt="Phaneendra Bheesetti — Senior Full-Stack & AI Engineer · 6+ years · Bangalore, India. Open to senior full-stack & AI engineering roles." width="830">
 
-Senior Full-Stack & AI Engineer with 6+ years architecting systems end-to-end — and shipping LLM systems that hold up in production: a real-time **voice agent**, **LLM-as-judge eval pipelines** validated against human graders, **sandboxed execution** of untrusted code, and agentic developer workflows. At BMW (via Alten) I own the team's **AI initiatives** — coding agents, **MCP servers** connecting internal systems to AI tooling, GitHub Copilot practices — on a large Nx monorepo of engineering-data visualization tools (Angular, Express, AWS DynamoDB + S3, Terraform). Also solo-founding [KodeRyu](https://koderyu.com), a live AI voice interviewer. IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
+Senior Full-Stack & AI Engineer with 6+ years architecting systems end-to-end — and shipping LLM systems that hold up in production: a real-time **voice agent**, **LLM-as-judge eval pipelines** validated against human graders, **sandboxed execution** of untrusted code, and agentic developer workflows. At BMW (via Alten) I build **backend services and infrastructure** — Node/NestJS APIs delegating heavy calculations to event-driven AWS workflows (SQS, Step Functions, Batch), on Kubernetes with Terraform — and own the team's **AI initiatives**: coding agents, **MCP servers** connecting internal systems to AI tooling, GitHub Copilot practices. Also solo-founding [KodeRyu](https://koderyu.com), a live AI voice interviewer. IIT Madras alum. I care as much about the trade-off behind a decision as the code that implements it.
 
 - Open to **Senior Full-Stack & AI Engineering** roles (Bangalore or remote)
 - TypeScript-first — Angular · React · Node · Postgres — with an AI layer of Claude API, MCP, agents, and LLM eval pipelines
@@ -52,7 +52,7 @@ An AI voice interviewer that conducts real spoken technical interviews — voice
 
 **Languages & data** — TypeScript · JavaScript · Python · Java · SQL · PostgreSQL · MongoDB · Redis · Kafka
 
-**Frameworks & infra** — Angular · React · Next.js · Node · Express · FastAPI · Electron · Prisma · Redux Toolkit · Zustand · Tailwind · Nx · Docker · nsjail · BullMQ · AWS (DynamoDB · S3 · Lambda) · Terraform · Jenkins
+**Frameworks & infra** — Node · NestJS · Express · React · Next.js · Angular · FastAPI · Electron · Prisma · Redux Toolkit · Tailwind · Nx · Docker · nsjail · BullMQ · Kubernetes (GitOps/ArgoCD) · AWS (SQS · Step Functions · Batch · Lambda · EventBridge · DynamoDB · S3) · Terraform · Jenkins
 
 **AI engineering** — Production LLM systems: real-time voice agents (streaming STT → LLM → TTS) · AI agents & agentic workflows · MCP server development · LLM evals & regression harnesses (LLM-as-judge) · prompt & context engineering · guardrails & sandboxed code execution · Claude API · Claude Code · GitHub Copilot · Deepgram STT · Kokoro TTS
 
